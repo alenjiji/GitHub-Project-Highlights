@@ -34,8 +34,8 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 **Highlights:** architecture-first design, deterministic logic, extensible framework.
 
-Project J — Text Exploration Library
-------------------------------------
+Architecture Diagram
+--------------------
 
                 +--------------------------+
                 |   Input Text Stream      |
@@ -93,15 +93,15 @@ Encrypted Proxy Tunnel — System Flow
         v
 +---------------+       Encrypted Layer       +------------------+
 |  Local Proxy  |=============================>| Remote Transport |
-|  (Python)     |<=============================|   Server         |
+|  (Python)     |<=============================|     Server       |
 +-------+-------+                              +--------+---------+
         |                                                |
         | Decrypt / Validate                             | Forward to
         |                                                | Target Host
         v                                                v
 +---------------+                              +----------------------+
-| Tunnel Logic  |                              |   Target Server      |
-| - Handshake   |                              | (e.g. youtube.com)   |
+| Tunnel Logic  |                              |    Target Server     |
+| - Handshake   |                              |  (e.g. youtube.com)  |
 | - AES/TLS     |                              +----------------------+
 | - Routing     |
 +---------------+
