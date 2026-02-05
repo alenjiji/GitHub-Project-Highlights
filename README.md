@@ -1,9 +1,10 @@
 # GitHub-Project-Highlights
+Hi, I’m Alen — a software & AI engineer passionate about clean architecture and practical systems. These are my key projects showing depth in AI/ML, engineering design, and tooling.
 
 ## ⭐ **1. J Text Exploration Library (Foundational Architecture)**
 
 **Tech:** Python, custom parsing utilities, modular walkers
-**Repo:** *(private / local work)*
+**Repo:** [alenjiji/J] (https://github.com/alenjiji/J)
 
 * Designed and implemented the core parsing and structural exploration library for **Project J**.
 * Built deterministic token-handling, structural nodes, and modular walkers.
@@ -45,7 +46,7 @@
 
 ## ⭐ **4. Nanma-NX Media Suite**
 
-**Repo:** alenjiji/Nanma-NX-Media-Suite
+**Repo:** [alenjiji/Nanma-NX-Media-Suite](https://github.com/alenjiji/Nanma-NX-Media-Suite)
 **Tech:** Python, media processing, batch automation utilities
 
 * Built a media-handling suite for batch conversions and workflow automation.
