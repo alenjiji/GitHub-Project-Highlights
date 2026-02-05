@@ -5,7 +5,7 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 ---
 
-# Badges
+# **Core Skills:** Python · LLM Engineering · Clean Architecture · Systems Programming · Qt/C++ · Networking · ML Foundations
 
 <p align="left">
 
@@ -34,6 +34,38 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 **Highlights:** architecture-first design, deterministic logic, extensible framework.
 
+Project J — Text Exploration Library
+------------------------------------
+
+                +--------------------------+
+                |   Input Text Stream      |
+                +-------------+------------+
+                              |
+                              v
+                 +-------------------------+
+                 |   Tokenizer / Parser    |
+                 +-------------+-----------+
+                               |
+                               v
+           +----------------------------------------+
+           |   Structural Nodes / AST-like Model    |
+           +------------------+---------------------+
+                              |
+                              v
+                 +------------------------------+
+                 |   Walkers (Deterministic)    |
+                 |   - Linear Walker            |
+                 |   - Branch Walker            |
+                 |   - Structural Walker        |
+                 +------------------------------+
+                              |
+                              v
+       +------------------------------------------------+
+       |  Future Module (Planned) — A* Semantic Walker  |
+       |  *Not implemented — design-only placeholder*   |
+       +------------------------------------------------+
+
+
 ---
 
 ## **2. Encrypted Proxy Tunnel (Real-Time Networking System)**
@@ -50,6 +82,35 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 * Stable operation achieved on Firefox with partial Chrome support.
 
 **Highlights:** networking internals, security engineering, real-world debugging.
+
+Encrypted Proxy Tunnel — System Flow
+------------------------------------
+
+ Client Browser
+ (Chrome/Firefox)
+        |
+        |  CONNECT request
+        v
++---------------+       Encrypted Layer       +------------------+
+|  Local Proxy  |=============================>| Remote Transport |
+|  (Python)     |<=============================|   Server         |
++-------+-------+                              +--------+---------+
+        |                                                |
+        | Decrypt / Validate                             | Forward to
+        |                                                | Target Host
+        v                                                v
++---------------+                              +----------------------+
+| Tunnel Logic  |                              |   Target Server      |
+| - Handshake   |                              | (e.g. youtube.com)   |
+| - AES/TLS     |                              +----------------------+
+| - Routing     |
++---------------+
+
+Notes:
+- Multi-layer encryption (AES/TLS)
+- AsyncIO handles concurrency
+- Chrome unstable, Firefox fully stable
+
 
 ---
 
@@ -68,6 +129,40 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 * Integrated CI gating and architecture enforcement using CMake.
 
 **Highlights:** disciplined engineering, determinism, maintainable design.
+
+DubbingTracker — Layered Architecture
+-------------------------------------
+
+                     +---------------------------+
+                     |        UI Layer (Qt)      |
+                     |  - MainWindow (composition root)
+                     |  - Widgets / Controllers
+                     +-------------+-------------+
+                                   |
+                                   |  UI Adapters
+                                   v
+                    +-----------------------------+
+                    |     Qt Adapters Layer       |
+                    |  (Connects UI → Core only)  |
+                    +-------------+---------------+
+                                  |
+                                  v
+        +-------------------------------------------------------+
+        |                      Core Layer                       |
+        |  - ProjectManager                                      |
+        |  - MarkerManager                                       |
+        |  - SyncController (40ms invariant)                     |
+        |  - Autosave, Undo Systems                              |
+        |  * Zero Qt dependencies                                |
+        +--------------------+----------------------------------+
+                             |
+                             v
+                   +-----------------------+
+                   |  Persistence Layer    |
+                   |  (Files, Serialization|
+                   |        Utils)         |
+                   +-----------------------+
+
 
 ---
 
@@ -99,6 +194,16 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 * Part of a 5-member Agile team delivering iterative feature updates.
 
 **Highlights:** gameplay logic, teamwork, iterative development.
+
+---
+
+## Why These Projects Matter
+These projects demonstrate my strengths in:
+- AI/LLM engineering and reasoning systems
+- System design with clean, modular architecture
+- Networking and low-level debugging
+- Cross-disciplinary work (AI + desktop apps + automation)
+- Building reliable tools focused on real-world usage
 
 ---
 
