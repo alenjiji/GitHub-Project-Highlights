@@ -199,7 +199,6 @@ DubbingTracker — Layered Architecture
 ---
 
 ## Why These Projects Matter
-These projects demonstrate my strengths in:
 - AI/LLM engineering and reasoning systems
 - System design with clean, modular architecture
 - Networking and low-level debugging
