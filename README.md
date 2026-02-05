@@ -5,7 +5,7 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 ---
 
-# **Core Skills:** Python · LLM Engineering · Clean Architecture · Systems Programming · Qt/C++ · Networking · ML Foundations
+## **Core Skills:** Python · LLM Engineering · Clean Architecture · Systems Programming · Qt/C++ · Networking · ML Foundations
 
 <p align="left">
 
