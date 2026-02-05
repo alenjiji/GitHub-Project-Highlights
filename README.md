@@ -83,14 +83,15 @@ Architecture Diagram
 
 **Highlights:** networking internals, security engineering, real-world debugging.
 
+```
 Encrypted Proxy Tunnel — System Flow
 ------------------------------------
 
- Client Browser  
- (Chrome/Firefox)  
-        |  
-        |  CONNECT request  
-        v  
+ Client Browser
+ (Chrome/Firefox)
+        |
+        |  CONNECT request
+        v
 +---------------+       Encrypted Layer       +------------------+
 |  Local Proxy  |=============================>| Remote Transport |
 |  (Python)     |<=============================|     Server       |
@@ -110,7 +111,7 @@ Notes:
 - Multi-layer encryption (AES/TLS)
 - AsyncIO handles concurrency
 - Chrome unstable, Firefox fully stable
-
+```
 
 ---
 
