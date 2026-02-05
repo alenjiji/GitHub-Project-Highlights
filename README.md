@@ -86,11 +86,11 @@ Architecture Diagram
 Encrypted Proxy Tunnel — System Flow
 ------------------------------------
 
- Client Browser
- (Chrome/Firefox)
-        |
-        |  CONNECT request
-        v
+ Client Browser  
+ (Chrome/Firefox)  
+        |  
+        |  CONNECT request  
+        v  
 +---------------+       Encrypted Layer       +------------------+
 |  Local Proxy  |=============================>| Remote Transport |
 |  (Python)     |<=============================|     Server       |
@@ -101,7 +101,7 @@ Encrypted Proxy Tunnel — System Flow
         v                                                v
 +---------------+                              +----------------------+
 | Tunnel Logic  |                              |    Target Server     |
-| - Handshake   |                              |  (e.g. youtube.com)  |
+| - Handshake   |                              | (e.g. youtube.com)   |
 | - AES/TLS     |                              +----------------------+
 | - Routing     |
 +---------------+
