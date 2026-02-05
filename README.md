@@ -1,4 +1,4 @@
-# 🚀 GitHub Project Highlights
+# GitHub Project Highlights
 
 Hi, I’m **Alen** — a **Software & AI Engineer** passionate about clean architecture, intelligent systems, and practical engineering.
 These are my key projects showcasing depth in **AI/ML**, **systems design**, and **tooling**.
@@ -20,7 +20,7 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 ---
 
-## ⭐ **1. J Text Exploration Library (Foundational Architecture)**
+## **1. J Text Exploration Library (Foundational Architecture)**
 
 ![Python](https://img.shields.io/badge/Python-Library-blue?logo=python)
 
@@ -36,7 +36,7 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 ---
 
-## ⭐ **2. Encrypted Proxy Tunnel (Real-Time Networking System)**
+## **2. Encrypted Proxy Tunnel (Real-Time Networking System)**
 
 ![Networking](https://img.shields.io/badge/Networking-Proxy%20Tunnel-green)
 ![Security](https://img.shields.io/badge/Security-TLS%2FAES-red)
@@ -53,7 +53,7 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 ---
 
-## ⭐ **3. DubbingTracker — Architecture-Driven Desktop Application**
+## **3. DubbingTracker — Architecture-Driven Desktop Application**
 
 ![C++](https://img.shields.io/badge/C%2B%2B-Qt%20Widgets-00599C?logo=c%2B%2B)
 ![Architecture](https://img.shields.io/badge/Architecture-Clean%20Layers-orange)
@@ -71,7 +71,7 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 ---
 
-## ⭐ **4. Nanma-NX Media Suite**
+## **4. Nanma-NX Media Suite**
 
 ![Python](https://img.shields.io/badge/Python-Media%20Suite-blue)
 ![Automation](https://img.shields.io/badge/Automation-Batch%20Tools-yellowgreen)
@@ -87,7 +87,7 @@ These are my key projects showcasing depth in **AI/ML**, **systems design**, and
 
 ---
 
-## ⭐ **5. Solitaire Game (Algonquin College — Co-op)**
+## **5. Solitaire Game (Algonquin College — Co-op)**
 
 ![C#](https://img.shields.io/badge/C%23-Gameplay-blue?logo=c-sharp)
 ![Agile](https://img.shields.io/badge/Agile-SCRUM-purple)
